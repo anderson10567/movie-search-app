@@ -1,0 +1,262 @@
+@media (min-width: 420px) and (max-width: 979px) {
+.ant-row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+    
+.movie-card {
+    display: flex;
+    flex-direction: column;  
+    background-color: hsl(0, 100%, 99%); 
+    border: 2px solid hsl(0, 0%, 90%); 
+    border-radius: 5%; 
+    cursor: pointer; 
+    overflow: hidden; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 980px;
+    width: 385px;
+    height: 280px;
+    margin:0;
+    padding:0;
+    }
+    
+ .movie-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+
+    }
+    
+.movie-content {
+    display: flex;
+    flex: 1; 
+    justify-content: center
+    }
+    
+.movie-poster {
+    width: 191px; 
+    height: 278px; 
+    margin-right: 3px; 
+    background-size: cover; 
+    position: relative;
+    left: 42px;
+    top: -24px;
+    }
+    
+.movie-title {
+    margin: 0;  
+    font-size: 16px;
+    height: 27px;
+    margin-right: 182px;
+    font-weight: 600;
+    position: relative;
+    top: -7px;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+    
+.movie-title p{
+    
+    margin-right:5px
+
+    }
+.movie-text{
+    word-break: break-word;
+    width: 183px;
+    height: 120px;
+    position: relative;
+    top: 72px;
+    
+    }
+    
+.release-date {
+    font-size: small; 
+    color: hsl(0, 0%, 50%);
+    position: relative;
+    top:-243px;
+    left:5px
+    }
+    
+.movie-genres {
+    font-size: small; 
+    color: hsl(0, 0%, 60%);
+    position: relative;
+    top:-250px;
+    display:flex;
+    justify-content: start;
+    z-index: auto;
+    min-width: 20px;
+    height: 20px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 17px;
+    white-space: wrap;
+    text-align: start;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px #ffffff;
+    margin-right: 54px; ;
+    min-width: 20px;
+
+    }
+    
+    
+.movie-description {
+    font-size: small;
+    color: hsl(0, 0%, 40%);
+    height: 120px;
+    position: relative;
+    left: 50px;
+    }
+    
+.movie-ratingstar {
+    width: 285px;
+    height: 46px;
+    display: inline-block; 
+    font-size: 19px;
+    transform: scale(0.7);
+    margin-top: 5px;
+    position: relative;
+    left: -49px;
+    top:-10px
+    }
+.movie-rating{
+
+    position: relative;
+    left: 150px;
+    top: -182px;
+
+    }
+}
+
+ @media (min-width: 980px) { 
+
+
+.movie-card {
+    display: flex;
+    flex-direction: column;  
+    background-color: hsl(0, 100%, 99%); 
+    border: 2px solid hsl(0, 0%, 90%); 
+    border-radius: 5%; 
+    cursor: pointer; 
+    overflow: hidden; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 980px;
+    width: 450px;
+    height: 280px;
+    margin:0;
+    padding:0;
+}
+
+.movie-card:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.movie-content {
+    display: flex;
+    flex: 1; 
+    justify-content: center
+}
+
+.movie-poster {
+    width: 191px; 
+    height: 278px; 
+    margin-right: 3px; 
+    background-size: cover; 
+    position: relative;
+    left: 6px;
+    top: -24px;
+}
+
+.movie-title {
+    margin: 0;  
+    font-size: 16px;
+    height: 27px;
+    margin-right: 91px;
+    font-weight: 600;
+    position: relative;
+    top: -7px;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie-title p{
+
+    margin-right:5px
+}
+.movie-text{
+    word-break: break-word;
+    width: 183px;
+    height: 120px;
+    position: relative;
+    top:50px
+
+}
+
+.release-date {
+    font-size: small; 
+    color: hsl(0, 0%, 50%); 
+    position: relative;
+    top:-243px;
+    
+}
+
+.movie-genres {
+    font-size: small; 
+    color: hsl(0, 0%, 60%);
+    position: relative;
+    top:-250px;
+    display: inline-flex;
+    justify-content: center;
+    z-index: auto;
+    min-width: 20px;
+    height: 20px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    white-space: wrap;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px #ffffff;
+ 
+}
+
+
+.movie-description {
+    font-size: small;
+    color: hsl(0, 0%, 40%);
+    height: 100%;
+    position: relative;
+    left:12px;
+}
+
+.movie-ratingstar {
+    width: 285px;
+    height: 46px;
+    display: inline-block; 
+    border-radius: 50%;
+    font-size: 19px;
+    transform: scale(0.8);
+    margin-top: 5px; 
+    position: relative;
+    left: -28px;
+    top:-10px
+
+  
+}
+
+.movie-rating{
+    position: relative;
+    top: -182px;
+    left: 210px;
+}
+
+ }
